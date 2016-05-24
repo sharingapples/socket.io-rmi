@@ -1,6 +1,6 @@
 {
   "name": "socket.io-rpc-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A common definition only tier for use within socket.io-rpc-client and socket.io-rpc-server",
   "main": "index.js",
   "scripts": {
