@@ -5,6 +5,8 @@ module.exports = {
 
   TYPE_REMOTE_INSTANCE: 'RemoteInstance',
 
+  EVENT_CONNECTED: 'Connected',
+
   /**
    * Get the name of the event for the given namespace and name
    * @param  {string} namespace     The namespace name (can be empty)
