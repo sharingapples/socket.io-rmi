@@ -1,8 +1,13 @@
 {
-  "name": "socket.io-rpc-common",
-  "version": "1.0.1",
-  "description": "A common definition only tier for use within socket.io-rpc-client and socket.io-rpc-server",
+  "name": "socket.io-rmi",
+  "version": "0.0.0",
+  "description": "A common definition for use within socket.io-rmi-client and socket.io-rmi-server",
   "main": "index.js",
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharingapples/socket.io-rmi.git"
+  },
   "scripts": {
     "test": ""
   },
