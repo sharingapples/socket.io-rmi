@@ -1,0 +1,11 @@
+{
+  "name": "socket.io-rpc-common",
+  "version": "0.0.0",
+  "description": "A common definition only tier for use within socket.io-rpc-client and socket.io-rpc-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ranjan Shrestha",
+  "license": "MIT"
+}
