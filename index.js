@@ -1,6 +1,8 @@
 module.exports = {
   TYPE_CALLBACK: 'Callback',
 
+  TYPE_ERROR: 'Error',
+
   TYPE_REMOTE_HANDLER: 'RemoteHandler',
 
   TYPE_REMOTE_INSTANCE: 'RemoteInstance',
