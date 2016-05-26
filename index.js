@@ -5,7 +5,13 @@ module.exports = {
 
   TYPE_REMOTE_INSTANCE: 'RemoteInstance',
 
-  EVENT_CONNECTED: 'Connected',
+  /** Event sent after a connection is establied. This event sends the root
+   * object required for making the RMI requests as data */
+  EVENT_CONNECTED: 'Connected',   // Event sent after a connection is established
+
+  /** Event sent when an error occurs in the server (like 502). The socket is
+   * closed after this event is sent. The error object is passed as data */
+  EVENT_ERROR: 'Error',
 
   /**
    * Get the name of the event for the given namespace and name
