@@ -1,3 +1,34 @@
+'use strict';
+
+class UncatchableError extends Error {
+  constructor(type, message) {
+    super(message);
+    this.type = type;
+  }
+
+  toJSON() {
+    return {
+      type: this.type,
+      message: this.message,
+    };
+  }
+}
+
+class Redirection extends UncatchableError {
+  constructor(location, message) {
+    super('Redirection', messsage);
+    this.location = location;
+  }
+
+  toJSON() {
+    return {
+      type: this.type,
+      location: this.location,
+      message: this.message,
+    };
+  }
+}
+
 module.exports = {
   TYPE_CALLBACK: 'Callback',
 
@@ -14,6 +45,12 @@ module.exports = {
   /** Event sent when an error occurs in the server (like 502). The socket is
    * closed after this event is sent. The error object is passed as data */
   EVENT_ERROR: 'Error',
+
+  /** Redirection Expection */
+  Redirection: Redirection,
+
+  /** The UncatchableError that has to be handled centrally */
+  UncatchableError: UncatchableError,
 
   /**
    * Get the name of the event for the given namespace and name
