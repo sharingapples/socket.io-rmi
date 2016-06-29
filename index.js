@@ -16,7 +16,7 @@ class UncatchableError extends Error {
 
 class Redirection extends UncatchableError {
   constructor(location, message) {
-    super('Redirection', messsage);
+    super('Redirection', message);
     this.location = location;
   }
 
