@@ -1,6 +1,6 @@
 {
   "name": "socket.io-rmi",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A common definition for use within socket.io-rmi-client and socket.io-rmi-server",
   "main": "index.js",
   "files": [],
